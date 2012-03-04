@@ -30,17 +30,6 @@ var Balls = function() {
 		circle.setElasticity(0.8);
 		circle.setFriction(1);
 	}
-/*
- * atom.canvas.onmousedown = function(e) {
-      radius = 10;
-      mass = 3;
-      body = space.addBody(new cp.Body(mass, cp.momentForCircle(mass, 0, radius, v(0, 0))));
-      body.setPos(v(e.clientX, e.clientY));
-      circle = space.addShape(new cp.CircleShape(body, radius, v(0, 0)));
-      circle.setElasticity(0.5);
-      return circle.setFriction(1);
-    };
-*/
 
 	this.ctx.strokeStyle = "black";
 
